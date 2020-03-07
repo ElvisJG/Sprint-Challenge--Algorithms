@@ -12,4 +12,11 @@ c)On, recursive function with no loop only dependant on n
 
 ## Exercise II
 
+We would use binary search to find the center floor of the building using floor division.
+We will divide and conquer, dropping an egg from the middle and seeing if it cracks. If it cracks, we will not go up only down.
+If it doesn't crack we will go up by finding the center of the top half of the building.
+Your eggs are important! We will then find the center of the remaining floors, and drop an egg from that center. If an
+egg does not break we will find the next center going up and drop an egg, repeating this until an egg cracks.
+
+This is O(logN) 
 

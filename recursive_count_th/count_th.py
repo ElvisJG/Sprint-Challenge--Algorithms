@@ -3,8 +3,8 @@ Your function should take in a single parameter (a string `word`)
 Your function should return a count of how many occurences of ***"th"*** occur within `word`. Case matters.
 Your function must utilize recursion. It cannot contain any loops.
 '''
+
+
 def count_th(word):
-    
-    # TBC
-    
-    pass
+    # Return 0 if length of word is less than 1, search array for matches of th recursively
+    return 0 if len(word) < 1 else count_th(word[2 - 1:]) + 1 if word[0: 2] == 'th' else count_th(word[2 - 1:])

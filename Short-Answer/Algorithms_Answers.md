@@ -2,13 +2,13 @@
 
 ## Exercise I
 
-a)
+a)On, the bigger the longer this will take to reach a conclusion in the while loop
 
 
 b)
 
 
-c)
+c)On, recursive function with no loop only dependant on n
 
 ## Exercise II
 
